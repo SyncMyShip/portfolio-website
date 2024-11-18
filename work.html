@@ -4,7 +4,7 @@
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
         <title>My Work</title>
-        <link rel="shortcut icon" href="img/jcf-favicon.png" type="image/x-icon">
+        <link rel="shortcut icon" href="img/favicon.png" type="image/x-icon">
         <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
         <link href="https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap" rel="stylesheet">
         <link rel="stylesheet" type="text/css" href="css/style.production.css">
@@ -12,7 +12,7 @@
 
     <body>
         <header class="page-header">
-            <img src="img/jade-logo-black-transparent-cropped.svg" alt="logo" class="page-header__item">
+            <img src="img/francis-says-hello.png" alt="logo" class="site-logo page-header__item">
             <nav class="page-header__item">
                 <ul role="menubar" class="navigation-bar">
                     <li role="presentation">
@@ -31,54 +31,124 @@
             </nav>
         </header>
         <section class="main-content">
-            <h1 class="work-header">Work</h1>
+            <div class="work-page-heading">
+                <img src="img/francis-avatar.png" class="small-profile-portrait">
+                <h1 style="text-decoration: underline;">My Work</h1>
+            </div>
             <div class="grid">
                 <div class="grid__item">
-                    <h2>Example 1</h2>
-                    <p>
-                        Testing example number one.
-                    </p>
-                    <a href="#">See project on Github</a>
+                    <h2 class="grid__item--title">Pokedex</h2>
+                    <div class="grid__item--content">
+                        <img class="project-img pokedex-img pokedex-home" src="img/pokedex-home.png">
+                        <img class="project-img pokedex-img pokedex-modal"src="img/pokedex-modal.png"
+                        <p>
+                            The pokedex project is exactly that, a basic app that allows
+                            users to view a list of pokemon and their details. This project
+                            uses the PokeApi which can be found <a href="https://pokeapi.co/">here</a>.
+                        </p>
+                        <p>
+                            <strong>Highlighted Technology:</strong>
+                            <ul>
+                                <li>HTML</li>
+                                <li>CSS</li>
+                                <li>JavaScript</li>
+                            </ul>
+                        </p>
+                        <a class="grid__item--footer" href="https://syncmyship.github.io/pokedex/">View Live</a>
+                        <br>
+                        <a class="grid__item--footer" href="https://github.com/SyncMyShip/pokedex">View on Github</a>
+                    </div>
                 </div>
                 <div class="grid__item">
-                    <h2>Example 2</h2>
-                    <p>
-                        Testing example number two.
-                    </p>
-                    <a href="#">See project on Github</a>
+                    <h2 class="grid__item--title">ReelRendezVous (React)</h2>
+                    <div class="grid__item--content">
+                        <img class="project-img reelrendezvous-img reel-rendezvous-login" src="img/reel-rendezvous-login.png">
+                        <img class="project-img reelrendezvous-img reel-rendezvous-home"src="img/reel-rendezvous-home.png">
+                        <p>
+                            Reel Rendezvous is a SPA that integrated both client-side ans
+                            server-side development. This app provides users with a bank of 
+                            movie knowledge, all accessible through a UI build using React.
+                        </p>
+                        <p>
+                            <strong>Highlighted Technology:</strong>
+                            <ul>
+                                <li>React</li>
+                                <li>Parcel</li>
+                        </p>
+                        <a href="https://reelvouz.netlify.app/">View Live</a>
+                        <br>
+                        <a href="https://github.com/SyncMyShip/myFlix-client">View on Github</a>
+                    </div>    
                 </div>
                 <div class="grid__item">
-                    <h2>Example 3</h2>
-                    <p>
-                        Testing example number three.
-                    </p>
-                    <a href="#">See project on Github</a>
+                    <h2 class="grid__item--title">ReelRendezVous (Angular)</h2>
+                    <div class="grid__item--content">
+                        <img class="project-img reelrendezvous-ang-img reel-rendezvous-login" src="img/reelrendezvous-ang-login.png">
+                        <img class="project-img reelrendezvous-ang-img reel-rendezvous-home" src="img/reelrendezvous-ang-home.png">
+                        <p>
+                            Reel Rendezvous is an app similar to the other project of the same name, except this specific frontend was also built using Angular.
+                        </p>
+                        <p>
+                            <strong>Highlighted Technology:</strong>
+                            <ul>
+                                <li>Angular</li>
+                        </p>
+                        <a class="grid__item--footer" href="https://reelrendezvous-angular.netlify.app/UMeet-Angular/welcome">View Live</a>
+                        <br>
+                        <a class="grid__item--footer" href="https://github.com/SyncMyShip/UMeet-Angular">View on Github</a>
+                    </div>
                 </div>
                 <div class="grid__item">
-                    <h2>Example 4</h2>
-                    <p>
-                        Testing example number four.
-                    </p>
-                    <a href="#">See project on Github</a>
+                    <h2 class="grid__item--title">UMeet</h2>
+                    <div class="grid__item--content">
+                        <img class="project-img umeet-img umeet-home" src="img/umeet-home.png">
+                        <p>
+                            UMeet is an application that provides users with a list of events in their area.
+                            Users can also search for events in locations outside of their immediate vicinity.
+                        </p>
+                        <p>
+                            <strong>Highlighted Technology:</strong>
+                            <ul>
+                                <li>React</li>
+                                <li>Google Calendar API</li>
+                                <li>Serverless</li>
+                                <li>AWS Lambda</li>
+                        </p>
+                        <a class="grid__item--footer" href="https://reelrendezvous-angular.netlify.app/UMeet-Angular/welcome">View Live</a>
+                        <br>
+                        <a class="grid__item--footer" href="https://github.com/SyncMyShip/UMeet-Angular">View on Github</a>
+                    </div>
+                </div>              
+                <div class="grid__item">
+                    <h2 class="grid__item--title">SpeakEazy</h2>
+                    <div class="grid__item--content">
+                        <img class="project-img speakeazy-start" src="img/speakeazy-start.png">
+                        <img class="project-img speakeazy-chat" src="img/speakeazy-chat.png">
+                        <p>
+                            SpeakEazy is a mobile chat app that provides users with a chat interface. Users are given
+                            the ability to share information such as text, images, or their location.
+                        </p>
+                        <p>
+                            <strong>Highlighted Technology:</strong>
+                            <ul>
+                                <li>React Native</li>
+                                <li>Expo</li>
+                                <li>Google Firestore</li>
+                                <li>Android Studio</li>
+                        </p>
+                        <a class="grid__item--footer" href="https://reelrendezvous-angular.netlify.app/UMeet-Angular/welcome">View Live</a>
+                        <br>
+                        <a class="grid__item--footer" href="https://github.com/SyncMyShip/UMeet-Angular">View on Github</a>
+                    </div>
                 </div>
-                <!-- <div class="grid__item">
-                    <h2>Example 5</h2>
-                    <p>
-                        Testing example number five.
-                    </p>
-                    <a href="#">See project on Github</a>
-                </div> -->
             </div>
         </section>
         <footer class="page-footer">
             <div class="social-footer">
-                <p><strong>Find me on:</strong></p>
                 <div class="social-media">
+                    <p><strong>Find me on:</strong></p>
                     <a href="https://github.com" target="_blank">
                         <img src="img/github-icon.svg" alt="github logo">
-                    </a>
-                    <a href="https://twitter.com" target="_blank">
-                        <img src="img/twitter-icon.svg" alt="x logo">
                     </a>
                     <a href="https://linkedin.com" target="_blank">
                         <img src="img/linkedin-icon.svg" alt="linkedin logo">

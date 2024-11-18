@@ -191,6 +191,15 @@ label {
     border: 2px #97a17c solid;
 }
 
+.grid__item > h1 {
+    justify-content: center;
+}
+
+.pokedex-img {
+    width: 25px;
+    height: 20px;
+}
+
 /* .grid__item:last-child {
     grid-column-start: 3;
     grid-column-end: 3;
@@ -204,12 +213,12 @@ label {
 
 @media all and (max-width: 500px) {
     .grid {
-        grid-template-columns: 1fr;
+        grid-template-columns: 4fr;
     }
 }
 @media all and (min-width: 500px) and (max-width: 750px) {
     .grid {
-        grid-template-columns: 1fr 1fr;
+        grid-template-columns: 4fr 4fr;
     }
 }
 @media all and (max-width: 750px) {
