@@ -315,7 +315,7 @@ label {
 }
 
 .grid__item--footer {
-    padding-top: 15px;
+/*     padding-top: 15px; */
     /* box-sizing: border-box; */
     width: 100%; /* Ensure it stretches across the full width */
 }
