@@ -81,8 +81,8 @@ a:active {
 }
 
 .site-logo {
-    width: 10%;
-    max-width: 150px;
+    width: 5%;
+    max-width: 125px;
     height: auto;
     display: block;
     margin: 0 auto;
@@ -200,6 +200,10 @@ a:active {
     flex: 50%
 }
 
+/* .contact-page-logos {
+    margin-left: 5%;
+} */
+
 @-webkit-keyframes zoomIn {
     from {
         -webkit-transform: scale(1);
@@ -315,7 +319,7 @@ label {
 }
 
 .grid__item--footer {
-/*     padding-top: 15px; */
+    /* padding-top: 15px; */
     /* box-sizing: border-box; */
     width: 100%; /* Ensure it stretches across the full width */
 }
